@@ -1,0 +1,12 @@
+{
+  "name": "SrcApp",
+  "displayName": "SrcApp",
+  "expo": {
+    "name": "SrcApp",
+    "slug": "SrcApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
