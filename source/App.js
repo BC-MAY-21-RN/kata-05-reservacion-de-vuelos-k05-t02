@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import CheckBoxElements from './entities/signUp/atoms/CheckBoxElements';
+import { StyleSheet, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <CheckBoxElements/>      
+    <View style={styles.container}> 
       <StatusBar style="auto" />
     </View>
   );

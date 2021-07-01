@@ -18,8 +18,8 @@ export default function CheckBoxElements() {
 
             <View style={styles.checkboxContainer}>
                 <CheckBox
-                checked={suscribeSelected}
-                onPress={() => suscribeSelection(!suscribeSelected)}
+                    checked={suscribeSelected}
+                    onPress={() => suscribeSelection(!suscribeSelected)}
                 />
                 <Text style={styles.checkBoxText}>Suscribe for select product updates.</Text>
             </View>
